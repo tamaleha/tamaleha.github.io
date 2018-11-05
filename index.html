@@ -35,47 +35,64 @@ si inca unul
 <img src="pisica.jpg" width="100" title="matza sefa">
 <br>
 <br>
-
-<table border="1">
+    <table border="1">
     <tr>
-        <th colspan="3>"
-    <th>gene</th>
-    <th>ral</th>
-    <th>eee</th>
+    <th rowspan="4">avem rowspan </th>
+    <th colspan="3">cap tabel </th>
+    <tr>
+    <th>  1 </th>
+    <th>  2 </th>
+    <th>  3  </th>
 </tr>
-    <td>cucu</td>
-    <td>mem</td>
-    <td>da</td>
-    <td>mere</td>
-    <tr>
-        <td>11</td>
-        <td>222</td>
-        <td>danu</td>
-        <td>nn</td>
-        </tr>
-
+<tr>
+<td> rand 1 col 1 </td>
+<td> rand 1 col 2 </td>
+<td> rand 1 col 3 </td>
+</tr>
+<tr>
+<td> rand 2 col 1 </td>
+<td> rand 2 col 2 </td>
+<td> rand 2 col 3 </td>
+</tr>
 </table>
-
-
+  
 <div>
     first div
 </div>
+
 <span>
-first  span
+   first  span
 </span>
+
 <span>
     al doilea span
 </span>
 
-<form>
+<form action>
     <label for="primulText">Name:</label>
-    <input id="primulText"  name="primulText" type="text" placeholder="scrie ceva" value="1">
-    <button>try it</button>
+    <input id="primulText"  name="primulText" type="text" 
+
+placeholder="scrie ceva" value="1">
+    <div>
     <input type="radio" name="gender" value="male" checked> Male<br>
     <input type="radio" name="gender" value="female"> Female<br>
     <input type="radio" name="gender" value="other"> Other
-</form>
+</div>
+<div>
+<label for="male"> Male </label>
+<input type="radio" name="gender2" id="male" value="male">
 <br>
-
+<label for="female">Female</label>
+<input type="radio" name="gender2" id="female" value="female">
+<br>
+<label for="other">Other</label>
+<input type="radio" name="gender2" id="other" value="other">
+<br>
+<br>
+</div>
+ <button>try it</button>
+</form>
 </body>
 </html>
+
+
